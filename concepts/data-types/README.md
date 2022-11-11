@@ -103,7 +103,7 @@ let s1: string = vAny;
 // [Erorr] Type 'unknown' is not assignable to type 'string'.
 // let s2: string = vUnknown;
 
-// Type assertion
+// Type casting
 let vUnknown2: unknown = 10;
 let s2: string = vUnknown2 as string;
 console.log(s2);
