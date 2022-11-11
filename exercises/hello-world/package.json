@@ -1,0 +1,12 @@
+{
+  "name": "hello-world",
+  "version": "1.0.0",
+  "description": "The classical introductory exercise. Just say \"Hello, World!\".",
+  "main": "src/script.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "tsc src/script.ts && node src/script.js && rm -rf src/script.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
