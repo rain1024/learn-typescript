@@ -1,6 +1,6 @@
 # Classes
 
-```
+```ts
 class User {
     firstName: string
     lastName: string
@@ -26,6 +26,7 @@ console.log(user.lastName);
 
 ## Private
 
+```ts
 class User2 {
     private firstName: string
     private lastName: string
@@ -44,10 +45,11 @@ console.log(user2);
 console.log(user2.getFullname());
 // Error: Property 'firstName' is private and only accessible within class 'User2'.
 console.log(user2.firstName);
+```
 
 ## Readonly
 
-```
+```ts
 class User {
     firstName: string;
     lastName: string;
@@ -78,7 +80,7 @@ console.log(user.lastName);
 
 ## Interface 
 
-```
+```js
 interface IUser {
   getFullName(): string;
 }
@@ -110,7 +112,7 @@ console.log(User.maxAge);
 
 ## Inherantance
 
-```
+```js
 class User {
     firstName: string;
     lastName: string;
@@ -139,4 +141,33 @@ const admin = new Admin("Mr", "Admin");
 console.log(admin);
 admin.setEditor("Editor 1");
 console.log(admin.getEditor());
+```
+
+Example 2
+
+```js
+class Person {
+    constructor(public firstName: string, public lastName: string){}
+
+    public getGreeting(): string {
+        return `Hello, my name is ${this.firstName} ${this.lastName}.`;
+    }
+}
+
+class Programmer extends Person {
+    constructor(public firstName: string, public lastName: string, public favoriteLanguage: string){
+        super(firstName, lastName);
+    }
+
+    public getGreeting(): string {
+        return `${super.getGreeting()} My favorite language is ${this.favoriteLanguage}.`;
+    }
+
+}
+
+const person = new Person('Vu', 'Anh');
+console.log(person.getGreeting());             // Hello, my name is Vu Anh.
+const programmer = new Programmer('Linus', 'Torvalds', 'C');
+console.log(programmer.getGreeting());         // Hello, my name is Linus.
+                                               // My favorite language is C.
 ```
