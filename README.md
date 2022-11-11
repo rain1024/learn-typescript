@@ -1,7 +1,7 @@
 # Learn Typescript
 
 
-## Getting Started
+## ⚡ Getting Started
 
 ## 📙 Concepts
 
@@ -10,6 +10,6 @@
 * [Generics](concepts/generics)
 * [Enums](concepts/enums)
 
-## Exercises
+## 💪 Exercises
 
 * [hello-world](exercises/hello-world)
