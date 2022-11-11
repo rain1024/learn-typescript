@@ -4,4 +4,4 @@
 
 ## Exercises
 
-* [hello-world][exercises/hello-world]
+* [hello-world](exercises/hello-world)
