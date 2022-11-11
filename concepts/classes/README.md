@@ -171,3 +171,7 @@ const programmer = new Programmer('Linus', 'Torvalds', 'C');
 console.log(programmer.getGreeting());         // Hello, my name is Linus.
                                                // My favorite language is C.
 ```
+
+## References
+
+* [Parameter Properties](https://www.typescriptlang.org/docs/handbook/2/classes.html#parameter-properties), typescriptlang.org 
