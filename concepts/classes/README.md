@@ -172,6 +172,32 @@ console.log(programmer.getGreeting());         // Hello, my name is Linus.
                                                // My favorite language is C.
 ```
 
+## Intersection Types
+
+Intersection with Interface 
+
+```ts
+interface ProgrammerEmployee {
+    firstName: string;
+    lastName: string;
+    favoriteLanguage: string;
+}
+
+interface BillableResource {
+    hourlyRate: number;
+}
+
+let billableProgrammer: ProgrammerEmployee & BillableResource = {
+    firstName: "Alan",
+    lastName: "Kay",
+    favoriteLanguage: "Typescript",
+    hourlyRate: 200
+};
+
+console.log(billableProgrammer.firstName);   // Alan
+console.log(billableProgrammer.hourlyRate);  // 200
+```
+
 ## References
 
 * [Parameter Properties](https://www.typescriptlang.org/docs/handbook/2/classes.html#parameter-properties), typescriptlang.org 
