@@ -102,7 +102,7 @@ const user = new User();
 
 ## Static
 
-```
+```ts
 class User {
     static maxAge: number = 100;
 }
@@ -112,7 +112,7 @@ console.log(User.maxAge);
 
 ## Inherantance
 
-```js
+```ts
 class User {
     firstName: string;
     lastName: string;
@@ -145,7 +145,7 @@ console.log(admin.getEditor());
 
 Example 2
 
-```js
+```ts
 class Person {
     constructor(public firstName: string, public lastName: string){}
 
