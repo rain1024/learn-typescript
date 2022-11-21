@@ -1,6 +1,6 @@
 # Generics
 
-```
+```ts
 const addId = (obj: any) => {
     const id = Math.random().toString(16);
     return {
@@ -23,7 +23,7 @@ console.log(result);
 
 ## Generatics with Interface
 
-```
+```ts
 const addId = <T>(obj: T) => {
     const id = Math.random().toString(16);
     return {
@@ -48,7 +48,7 @@ console.log(result2);
 
 Generics with template constrain
 
-```
+```ts
 const addId = <T extends object>(obj: T) => {
     const id = Math.random().toString(16);
     return {
@@ -73,7 +73,7 @@ console.log(result);
 
 ## Generics with interface
 
-```
+```ts
 interface IUser<T> {
     name: string,
     data: T
@@ -95,7 +95,7 @@ console.log(user2);
 
 ## Generics with muliple tempaltes
 
-```
+```ts
 interface IUser<T, V> {
     name: string,
     data: T,

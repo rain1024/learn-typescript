@@ -1,6 +1,6 @@
 # Enums
 
-```
+```ts
 const statuses = {
     notStarted: 0,
     inProgress: 1,
@@ -23,7 +23,7 @@ console.log(notStartedStatus);
 
 ## Enums in Inteface
 
-```
+```ts
 enum StatusEnum {
     NotStarted = "NotStarted",
     InProgress = "InProgress",

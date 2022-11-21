@@ -1,6 +1,6 @@
 Data Types
 
-```
+```ts
 const getFullName = (name: string, surname: string) => {
     return name + ' ' + surname;
 }
@@ -13,7 +13,7 @@ console.log(getFullName(true, 0));
 
 Option 1:
 
-```
+```ts
 interface User {
     name: string,
     age: number
@@ -30,7 +30,7 @@ const user2: User = {
 
 Option 2:
 
-```
+```ts
 interface User {
     name: string,
     age?: number
@@ -47,7 +47,7 @@ const user2: User = {
 
 ## Union & Type Alias
 
-```
+```ts
 let username: string = 'Vu Anh';
 let pageName: string | number = 0;
 let errorMessage: string | null = null;
@@ -79,7 +79,7 @@ console.log(dragonTag);
 
 ## Any, never, void, unknown
 
-```
+```ts
 const doSomething = (): void => {
     console.log('doSomething');
 }
