@@ -3,6 +3,7 @@
 **ℹ️ What are key differences between types and interfaces?**
 
 > Interfaces can be extends and changed to fit the needs of the application.
+
 > Types are static. They're just an alias to a shape. You can make new types by doing unions and intersections but you can't change the type itself.
 
 **ℹ️ What should I be using: interfaces or types?**
