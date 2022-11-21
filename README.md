@@ -9,6 +9,7 @@
 * [Classes](concepts/classes)
 * [Generics](concepts/generics)
 * [Enums](concepts/enums)
+* [Types vs Interfaces](concepts/types-vs-interfaces)
 
 ## 💪 Exercises
 
