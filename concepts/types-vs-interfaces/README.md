@@ -8,9 +8,9 @@
 
 **ℹ️ What should I be using: interfaces or types?**
 
-Short Answer: If you're working with object or classes, then using interface. If you're not using objects or classes, you want to type a function, I want to make a type alias, then using type.
+*Short Answer*: If you're working with object or classes, then using `interface`. If you're not using objects or classes, you want to type a function, I want to make a type alias, then using `type`.
 
-Be consistent with yourself and your team.
+> ⚠️ Be consistent with yourself and your team.
 
 ## Intefaces 
 
