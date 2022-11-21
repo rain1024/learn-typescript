@@ -2,7 +2,7 @@
 
 **ℹ️ What are key differences between types and interfaces?**
 
-> Interfaces can be extends and changed to fit the needs of the application.
+> On the typescript documentation page, it does sugest to use interface. Because ideal property of software as being open to extension, and as such you should always use an interface over a type alias if possible. That is especially true if you're writing a library that you're exporting functions and type information, it's better to export interfaces than types because interfaces can be extended and changed to fit the needs of the application.
 
 > Types are static. They're just an alias to a shape. You can make new types by doing unions and intersections but you can't change the type itself.
 
