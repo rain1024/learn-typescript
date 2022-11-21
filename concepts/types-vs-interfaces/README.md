@@ -1,10 +1,10 @@
 # Types vs Interfaces
 
-**What are key differences between types and interfaces?**
+**ℹ️ What are key differences between types and interfaces?**
 
 > Interfaces can be extends and changed to fit the needs of the application.Types are static. They're just an alias to a shape. You can make new types by doing unions and intersections but you can't change the type itself.
 
-**What should I be using: interfaces or types?**
+**ℹ️ What should I be using: interfaces or types?**
 
 Short Answer: If you're working with object or classes, then using interface. If you're not using objects or classes, you want to type a function, I want to make a type alias, then using type.
 
@@ -82,3 +82,7 @@ const harry3: WorkerYoutuber = {
     youtuber: true
 } 
 ```
+
+## Futher Readings 
+
+* ▶️ 2020, [TypeScript Interfaces vs Types](https://www.youtube.com/watch?v=crjIq7LEAYw&ab_channel=HarryWolff), Harry Wolff
